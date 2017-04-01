@@ -124,6 +124,7 @@ class Assigner
         input.experts.times do |expert|
           next if assigned?(expert, object)
           next if input.limited_reviews[expert]
+          break if object_reviewed?(object)
           buy_review(expert)
           add expert, object, :paid
         end
