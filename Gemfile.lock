@@ -1,0 +1,35 @@
+PATH
+  remote: .
+  specs:
+    review_assigner (0.0.0)
+      axlsx
+      roo
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    axlsx (2.0.1)
+      htmlentities (~> 4.3.1)
+      nokogiri (>= 1.4.1)
+      rubyzip (~> 1.0.0)
+    htmlentities (4.3.4)
+    mini_portile2 (2.1.0)
+    nokogiri (1.7.1)
+      mini_portile2 (~> 2.1.0)
+    roo (1.13.2)
+      nokogiri
+      rubyzip
+      spreadsheet (> 0.6.4)
+    ruby-ole (1.2.12.1)
+    rubyzip (1.0.0)
+    spreadsheet (1.1.4)
+      ruby-ole (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  review_assigner!
+
+BUNDLED WITH
+   1.14.3
