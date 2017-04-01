@@ -32,7 +32,7 @@ You can either use command line:
 bundle exec review_assigner <input_filename> <output_filename>
 ```
 `input_filename` is any string value suitable for `roo` gem.
-`output_filanem` is a path to store xlsx result.
+`output_filename` is a path to store xlsx result.
 
 
 or use it internally:
