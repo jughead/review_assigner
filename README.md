@@ -14,7 +14,14 @@ Finds an optimal expert-to-object assignment given the following conditions:
 
 ## Install
 
-`gem install review_assigner`
+```
+gem install review_assigner
+```
+or add it to your Gemfile:
+```ruby
+gem 'review_assigner'
+```
+and run `bundle install`
 
 ## Usage
 
@@ -27,7 +34,7 @@ bundle exec review_assigner <input_filename> <output_filename>
 
 
 or use it internally:
-```
+```ruby
 ReviewAssigner.assign_excel(input_filename, output_filename)
 ```
 
